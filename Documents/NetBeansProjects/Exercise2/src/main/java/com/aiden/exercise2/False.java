@@ -11,4 +11,7 @@ package com.aiden.exercise2;
  */
 public class False {
     
+    boolean add(boolean choice) {
+        return choice; //To change body of generated methods, choose Tools | Templates.
+    }
 }

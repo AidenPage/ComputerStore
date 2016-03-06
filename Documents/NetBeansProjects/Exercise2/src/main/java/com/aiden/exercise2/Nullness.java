@@ -5,10 +5,20 @@
  */
 package com.aiden.exercise2;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  *
  * @author 211121614
  */
 public class Nullness {
-    
+        
+    String add(String str) throws NullPointerException
+    {
+        if (str == null) {
+            throw new NullPointerException();
+        }
+        return str;
+    }
 }

@@ -11,4 +11,11 @@ package com.aiden.exercise2;
  */
 public class NonNullness {
     
+    String add(String str) throws NullPointerException
+    {
+        if (str == null) {
+            throw new NullPointerException();
+        }
+        return str;
+    }
 }

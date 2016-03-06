@@ -6,11 +6,41 @@
 package com.aiden.exercise2;
 
 import com.aiden.exercise2.*;
+import junit.framework.Assert;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 /**
  *
  * @author 211121614
  */
 public class FloatingPointTest {
+        public FloatingPointTest (){}
     
+     @Test
+     public void add() {
+     FloatingPoint fp = new FloatingPoint();
+     float result = fp.add(1.111f,1.111f);
+     Assert.assertEquals(2.222f, result);
+         
+     }
+    
+    @BeforeClass
+    public static void setUpClass() throws Exception {
+    }
+
+    @AfterClass
+    public static void tearDownClass() throws Exception {
+    }
+
+    @BeforeMethod
+    public void setUpMethod() throws Exception {
+    }
+
+    @AfterMethod
+    public void tearDownMethod() throws Exception {
+    }
 }

@@ -10,5 +10,9 @@ package com.aiden.exercise2;
  * @author 211121614
  */
 public class ArraysContent {
-    
+  
+    int [] add(int[] a) {
+        
+        return a; //To change body of generated methods, choose Tools | Templates.
+    }
 }

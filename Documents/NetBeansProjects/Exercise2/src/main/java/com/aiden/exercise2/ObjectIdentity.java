@@ -11,4 +11,10 @@ package com.aiden.exercise2;
  */
 public class ObjectIdentity {
     
+    
+    int add(int a) {
+        int b = a;
+        
+        return a - b; //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -10,5 +10,8 @@ package com.aiden.exercise2;
  * @author 211121614
  */
 public class DisablingTest {
-    
+    int add(int a,int b) {
+        
+        return a + b; //To change body of generated methods, choose Tools | Templates.
+    }
 }

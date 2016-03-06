@@ -11,4 +11,8 @@ package com.aiden.exercise2;
  */
 public class FloatingPoint {
     
+    float add(float a,float b) {
+        
+        return a + b; //To change body of generated methods, choose Tools | Templates.
+    }
 }

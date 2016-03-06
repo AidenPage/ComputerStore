@@ -9,6 +9,9 @@ package com.aiden.exercise2;
  *
  * @author 211121614
  */
-public class FailingTest {
+public class Failing {
     
+    String add(String a) {
+        return a; //To change body of generated methods, choose Tools | Templates.
+    }
 }

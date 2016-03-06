@@ -11,4 +11,8 @@ package com.aiden.exercise2;
  */
 public class ObjectEquality {
     
+    int add(int a,int b) {
+        
+        return a - b; //To change body of generated methods, choose Tools | Templates.
+    }
 }
