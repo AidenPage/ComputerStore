@@ -21,13 +21,13 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author Aidem
+ * @author Aiden
  */
 public class DiscountTest {
     
     private static ApplicationContext ctx;
     private static CalInterface discount;
-            
+    
     public DiscountTest() {
     }
 

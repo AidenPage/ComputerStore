@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author Aidem
+ * @author Aiden
  */
 public class MonitorMapTest {
     
