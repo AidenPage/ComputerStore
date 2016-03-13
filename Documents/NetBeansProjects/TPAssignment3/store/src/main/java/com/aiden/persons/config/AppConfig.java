@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  *
- * @author Aidem
+ * @author Aiden
  */
 @Configuration
 public class AppConfig {
