@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="computerstore.com.computerstore"
+    tools:ignore="MissingLeanbackLauncher,MissingLeanbackSupport">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".conf.util.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AccountRegisterActivity"></activity>
+        <activity android:name=".CartActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+
+    <service android:name=".services.components.Impl.ChassisServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.CPUServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.DisplayCardServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.MainboardServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.MemoryServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.MonitorServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.OpticalDevicesServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.PCUServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.PrinterServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.SpeakerServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+    <service android:name=".services.components.Impl.StorageDeviceServiceImpl"
+             android:enabled="true"
+             android:exported="true" />
+
+    </application>
+</manifest>

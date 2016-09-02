@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ComputerStore</string>
+    <string name="action_settings">Account details</string>
+    <string name="login">Login</string>
+    <string name="cart">Cart</string>
+    <string name="categories_prompt">Choose a category</string>
+    <string name="components">Components</string>
+
+    <string-array name="categories">
+        <item>Chassis</item>
+        <item>CPU</item>
+        <item>Display Card</item>
+        <item>Mainboard</item>
+        <item>Memory</item>
+        <item>Monitor</item>
+        <item>Notebook</item>
+        <item>Optical Devices</item>
+        <item>PCU</item>
+        <item>Printer</item>
+        <item>Speaker</item>
+        <item>Storage Device</item>
+    </string-array>
+
+
+</resources>
